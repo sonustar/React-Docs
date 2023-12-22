@@ -1,6 +1,6 @@
 import React from 'react'
-import Background from "./Components/Background";
-import Foreground from './Components/Foreground';
+import Background from "./Components/Background";   // c1
+import Foreground from './Components/Foreground';   // c2
 
 
 function App (){
@@ -9,8 +9,8 @@ function App (){
     <>
     <div className = ' relative w-full h-screen bg-zinc-800'>
     
-    <Background/>
-    <Foreground/>      
+    <Background/>    
+    <Foreground/>     
     </div>
     
      
